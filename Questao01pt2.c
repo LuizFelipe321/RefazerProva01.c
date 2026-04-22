@@ -21,6 +21,15 @@ como deveria ser corrigido.*/
          printf ("A eh maior\n");
     else //Aqui tambem possui um erro pois nao foram abertas chave "{}" de abertura e fechamento para else, ela é uma condicao
         printf("B eh maior\n");
+
+    /*Correcao 
+    if (a = b) {
+        printf("Numeros iguais\n");
+    } else if (a > b) {  
+         printf ("A eh maior\n");
+    } else {
+        printf("B eh maior\n");
+        }*/
         
     return 0;
 }
